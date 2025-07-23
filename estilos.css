@@ -1,0 +1,56 @@
+.custom-navbar{
+    background-color: tomato;
+}
+
+.nav-link{
+    color: aliceblue !important;
+    font-size: 25px;
+}
+
+.acade{
+    background-color: aqua;
+    color: aliceblue;
+}
+
+.ini{
+    background-color: purple !important;
+    color: aliceblue;
+}
+
+.titulo1{
+    margin-top: 30px;
+}
+
+.titulo2{
+    margin-top: 30px;
+    color: black;
+}
+
+.titulo3{
+    margin-top: 30px;
+    color: teal;
+}
+
+.fry{
+    margin-top: 30px;
+    border-radius: 60%;
+}
+
+.lista{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.lista-elem{
+    text-decoration: none;
+    list-style: none;
+}
+
+.labo{
+    background-color:pink;
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: blueviolet !important;
+}
