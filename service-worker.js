@@ -1,4 +1,4 @@
-self,addEventListener('install', event => {
+self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('mi-pwa-cache').then(cache =>{
             return cache.addAll([
