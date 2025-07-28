@@ -13,7 +13,7 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('fetch', event =>{
-    event.repondWith(
+    event.respondWith(
         caches.match(event.request)
         .then(respuesta => respuesta || fetch(event.request))
     );
